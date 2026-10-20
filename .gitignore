@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+config
+
+# Local outputs and temporary files
+etl_output.parquet
+*.log
+.DS_Store
